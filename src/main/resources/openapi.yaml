@@ -1,0 +1,18 @@
+resourcePackages:
+- com.dnastack
+prettyPrint: true
+cacheTTL: 0
+openAPI:
+  info:
+    version: '1.0'
+    title: DNAstack Swagger Test
+    description: 'This is a test of Swagger OpenAPI JAX-RS parser.'
+    termsOfService: http://dnastack.com
+    contact:
+      email: michal@dnastack.com
+    license:
+      name: Apache 2.0
+      url: http://www.apache.org/licenses/LICENSE-2.0.html
+  servers:
+    - url: http://localhost:8080/api
+      description: localhost      
